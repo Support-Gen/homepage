@@ -29,6 +29,9 @@ const solutions = [
   },
 ]
 
+const focusClasses = 'focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-50 rounded-md';
+const navClasses = 'text-md font-medium hover:text-gray-400 transition duration-150 ease-in-out p-1';
+
 const Nav = () => {
   return (
     <nav className="flex flex-row px-10 py-3">
@@ -37,9 +40,7 @@ const Nav = () => {
       <Popover className="relative">
           {() => (
             <>
-              <Popover.Button>
-                <span className="text-md font-medium hover:text-gray-400 transition duration-150 ease-in-out">Features</span>
-              </Popover.Button>
+              <Popover.Button className={`${navClasses} ${focusClasses}`}>Features</Popover.Button>
               <Transition
                 as={Fragment}
                 enter="transition ease-out duration-200"
@@ -56,7 +57,7 @@ const Nav = () => {
                         <a
                           key={item.name}
                           href={item.href}
-                          className="flex items-center p-2 -m-3 transition duration-150 ease-in-out rounded-lg hover:bg-gray-50"
+                          className={`flex items-center p-2 -m-3 transition duration-150 ease-in-out rounded-lg hover:bg-gray-50 ${focusClasses}`}
                         >
                           <div className={`flex items-center justify-center w-10 h-10 sm:h-12 sm:w-12 bg-${item.color}-200 rounded-md`}>
                             <item.icon size={30} className={`text-${item.color}-600`}></item.icon>
@@ -75,7 +76,7 @@ const Nav = () => {
                     <div className="p-4 bg-gray-50">
                       <a
                         href="##"
-                        className="flow-root px-2 py-2 transition duration-150 ease-in-out rounded-md hover:bg-gray-100"
+                        className={`flow-root px-2 py-2 transition duration-150 ease-in-out rounded-md hover:bg-gray-100 ${focusClasses}`}
                       >
                         <span className="flex items-center">
                           <span className="text-sm font-medium text-gray-900">
@@ -93,8 +94,8 @@ const Nav = () => {
             </>
           )}
         </Popover>
-        <a className="text-medium font-medium hover:text-gray-400 transition duration-150 ease-in-out" href='##'>Pricing</a>
-        <a className="text-medium font-medium hover:text-gray-400 transition duration-150 ease-in-out" href='##'>Docs</a>
+        <a className={`${navClasses} ${focusClasses}`} href='##'>Pricing</a>
+        <a className={`${navClasses} ${focusClasses}`} href='##'>Docs</a>
       </div>
       <div className="flex flex-1 justify-end">
         <button className="text-lg font-medium hover:bg-gray-100 rounded-md px-3 py-2">Sign in</button>
