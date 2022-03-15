@@ -11,21 +11,26 @@ const solutions = [
     description: 'Generate product guides easily',
     href: '##',
     icon: FaRobot,
-    color: 'blue'
+    bgClass: 'bg-blue-200',
+    textClass: 'text-blue-600'
   },
   {
     name: 'Theming',
     description: 'Match your style',
     href: '##',
     icon: HiOutlineColorSwatch,
-    color: 'purple'
+    color: 'purple',
+    bgClass: 'bg-purple-200',
+    textClass: 'text-purple-600'
   },
   {
     name: 'Analytics',
     description: 'Find out where issues start',
     href: '##',
     icon: MdInsights,
-    color: 'orange'
+    color: 'orange',
+    bgClass: 'bg-orange-200',
+    textClass: 'text-orange-600'
   },
 ]
 
@@ -56,11 +61,11 @@ const Nav = () => {
                       {solutions.map((item) => (
                         <a
                           key={item.name}
-                          href={item.href}
+                          href={item.href}    
                           className={`flex items-center p-2 -m-3 transition duration-150 ease-in-out rounded-lg hover:bg-gray-50 ${focusClasses}`}
                         >
-                          <div className={`flex items-center justify-center w-10 h-10 sm:h-12 sm:w-12 bg-${item.color}-200 rounded-md`}>
-                            <item.icon size={30} className={`text-${item.color}-600`}></item.icon>
+                          <div className={`flex items-center justify-center w-10 h-10 sm:h-12 sm:w-12 ${item.bgClass} rounded-md`}>
+                            <item.icon size={30} className={item.textClass}></item.icon>
                           </div>
                           <div className="ml-4">
                             <p className="text-sm font-medium text-gray-900">
