@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import Image from 'next/image'
+import FeatureSearch from '../components/feature-search'
 import Hero from '../components/hero'
-import HowItWorks from '../components/howitworks'
 import Nav from '../shared/nav'
 
 const Home: NextPage = () => {
@@ -14,7 +14,7 @@ const Home: NextPage = () => {
         </div>
       </div>
       <div className='flex justify-center relative flex-1 overflow-x-hidden'>
-        <HowItWorks></HowItWorks>
+        <FeatureSearch></FeatureSearch>
       </div>
     </main>
   )
