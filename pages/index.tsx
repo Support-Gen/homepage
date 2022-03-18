@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Image from 'next/image'
 import CodePreview from '../components/code-preview'
+import CtaNotify from '../components/cta-notify'
 import FeatureGuide from '../components/feature-guide'
 import FeatureOverview from '../components/feature-overview'
 import FeatureSearch from '../components/feature-search'
@@ -27,6 +28,9 @@ const Home: NextPage = () => {
       </div>
       <div className='flex justify-center relative flex-1 overflow-x-hidden mb-10'>
         <CodePreview></CodePreview>
+      </div>
+      <div className='flex justify-center relative flex-1 overflow-x-hidden mb-10'>
+        <CtaNotify></CtaNotify>
       </div>
     </main>
   )
