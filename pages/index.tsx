@@ -18,7 +18,7 @@ const Home: NextPage = () => {
           <Hero></Hero>
         </div>
       </div>
-      <div className='flex justify-center relative flex-1 overflow-x-hidden mb-10'>
+      <div className='flex justify-center mb-10'>
         <DocsOverview></DocsOverview>
       </div>
       {/* <div className='flex justify-center relative flex-1 overflow-x-hidden mb-10'>
