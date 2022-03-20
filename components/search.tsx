@@ -1,6 +1,6 @@
 const Search = () => {
   return (
-    <section className='container mx-auto px-4 mb-40'>
+    <section className='container mx-auto px-4 mb-60'>
       <div className="flex flex-col md:flex-row gap-14 mb-20">
         <div className='flex-col w-4/5 pt-10'>
           <h1 className='font-bold text-5xl mb-4 text-slate-900'>Smart search</h1>

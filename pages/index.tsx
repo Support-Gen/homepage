@@ -1,7 +1,9 @@
 import type { NextPage } from 'next'
+import AdminUI from '../components/admin-ui'
 import CtaNotify from '../components/cta-notify'
 import DocsOverview from '../components/docs-overview'
 import Hero from '../components/hero'
+import Integration from '../components/integration'
 import Search from '../components/search'
 import Themes from '../components/themes'
 import Nav from '../shared/nav'
@@ -18,6 +20,8 @@ const Home: NextPage = () => {
       <DocsOverview></DocsOverview>
       <Search></Search>
       <Themes></Themes>
+      <Integration></Integration>
+      <AdminUI></AdminUI>
       <CtaNotify></CtaNotify>
     </main>
   )

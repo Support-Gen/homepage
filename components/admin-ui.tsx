@@ -1,11 +1,11 @@
 import { Tab } from "@headlessui/react";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi"
 
-const DocsOverview = () => {
+const AdminUI = () => {
   return (
     <section className="container px-20 container mx-auto mb-60">
-      <h1 className="font-bold text-5xl text-center mb-4">Product documentation</h1>
-      <h2 className='font-normal text-lg text-center text-slate-500 mb-14'>Get an overview of all your features and help your clients learn more about them.</h2>
+      <h1 className="font-bold text-5xl text-center mb-4">Admin UI</h1>
+      <h2 className='font-normal text-lg text-center text-slate-500 mb-14'>Manage projects, analyse data and more.</h2>
       <Tab.Group>
         <div className="flex flex-row justify-center mb-10">
           <Tab.List className="max-w-2xl border-b-2 border-gray-200 px-10 gap-10 flex flex-row">
@@ -44,4 +44,4 @@ const DocsOverview = () => {
   );
 }
 
-export default DocsOverview;
+export default AdminUI;
