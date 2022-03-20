@@ -9,7 +9,7 @@ const Hero = () => {
           <button className='w-1/3 bg-blue-600 rounded-r-lg text-white font-semibold hover:bg-blue-500 shadow-lg shadow-blue-500/50'>Notify on launch 🚀</button>
         </div>
       </div>
-      <img className='w-1/2 absolute -right-4 top-36 shadow-lg rounded-lg' width={'100%'} height={'500px'} src="/feature-docs.png" alt="Image of feature documentation"/>
+      <img className='w-1/2 absolute -right-4 top-36 shadow-lg rounded-2xl' width={'100%'} height={'500px'} src="/feature-docs.png" alt="Image of feature documentation"/>
     </section>
   )
 }
