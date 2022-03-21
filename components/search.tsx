@@ -19,7 +19,7 @@ const Search = () => {
           <h2 className='font-normal text-lg text-slate-500 mb-14'>Integrade our search into your application, by working with our API.</h2>
         </div>
       </div>
-      <img className="absolute" style={{ top: -150, left: 50, width: '175px', zIndex: -1}}  src="/zoom-dynamic-color.svg"></img>
+      <img className="absolute" style={{ top: -50, right: 675, width: '200px', zIndex: -1}}  src="/zoom-dynamic-color.svg"></img>
     </section>
   )
 }

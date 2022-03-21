@@ -40,8 +40,8 @@ const DocsOverview = () => {
           </a>
         </div>
       </Tab.Group>
-      <img className="absolute" style={{ top: -100, right: 100, width: '200px', zIndex: -1}}  src="/file-text-dynamic-color.svg"></img>
-      <img className="absolute" style={{ top: 0, left: 100, width: '125px', zIndex: -1}}  src="/copy-dynamic-color.svg"></img>
+      <img className="absolute" style={{ top: 75, right: 150, width: '200px', zIndex: -1}}  src="/file-text-dynamic-color.svg"></img>
+      <img className="absolute" style={{ top: 125, left: 225, width: '125px', zIndex: -1}}  src="/copy-dynamic-color.svg"></img>
     </section>
   );
 }

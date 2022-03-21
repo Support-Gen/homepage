@@ -10,7 +10,7 @@ const Hero = () => {
         </div>
       </div>
       <img className='w-1/2 absolute -right-4 top-36 shadow-lg rounded-2xl' width={'100%'} height={'500px'} src="/feature-docs.png" alt="Image of feature documentation"/>
-      <img className="absolute" style={{ top: 650, left: -150, width: '175px', zIndex: -1}}  src="/clock-dynamic-color.svg"></img>
+      <img className="absolute" style={{ top: 550, right: 0, width: '200px', zIndex: -1}}  src="/thumb-up-dynamic-color.svg"></img>
     </section>
   )
 }

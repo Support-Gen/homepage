@@ -3,7 +3,7 @@ import { FiChevronLeft, FiChevronRight } from "react-icons/fi"
 
 const AdminUI = () => {
   return (
-    <section className="container px-20 container mx-auto mb-60">
+    <section className="container px-20 container mx-auto mb-60 relative">
       <h1 className="font-bold text-5xl text-center mb-4">Admin UI</h1>
       <h2 className='font-normal text-lg text-center text-slate-500 mb-14'>Manage projects, analyse data and more.</h2>
       <Tab.Group>
@@ -40,6 +40,7 @@ const AdminUI = () => {
           </a>
         </div>
       </Tab.Group>
+      <img className="absolute" style={{ top: 0, left: 175, width: '175px', zIndex: -1}}  src="/setting-dynamic-color.svg"></img>
     </section>
   );
 }
