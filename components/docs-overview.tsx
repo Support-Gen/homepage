@@ -3,7 +3,7 @@ import { FiChevronLeft, FiChevronRight } from "react-icons/fi"
 
 const DocsOverview = () => {
   return (
-    <section className="container px-20 container mx-auto mb-60">
+    <section className="container px-20 container mx-auto mb-60 relative">
       <h1 className="font-bold text-5xl text-center mb-4">Product documentation</h1>
       <h2 className='font-normal text-lg text-center text-slate-500 mb-14'>Get an overview of all your features and help your clients learn more about them.</h2>
       <Tab.Group>
@@ -40,6 +40,8 @@ const DocsOverview = () => {
           </a>
         </div>
       </Tab.Group>
+      <img className="absolute" style={{ top: -100, right: 100, width: '200px', zIndex: -1}}  src="/file-text-dynamic-color.svg"></img>
+      <img className="absolute" style={{ top: 0, left: 100, width: '125px', zIndex: -1}}  src="/copy-dynamic-color.svg"></img>
     </section>
   );
 }
