@@ -12,11 +12,12 @@ import Nav from '../shared/nav'
 const Home: NextPage = () => {
   return (
     <main className='overflow-x-hidden'>
-      <div className='min-h-screen flex flex-col mb-10'>
+      <div className='min-h-screen flex flex-col mb-60 relative overflow-hidden'>
         <Nav></Nav>
         <div className='flex flex-1'>
           <Hero></Hero>
         </div>
+        <img className="absolute" src="/hero-blob.svg" style={{zIndex: -1, minHeight: '100vh', width: '100%', objectFit: 'cover'}}></img>
       </div>
       <DocsOverview></DocsOverview>
       <Search></Search>
