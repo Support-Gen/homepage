@@ -1,7 +1,7 @@
 import Reveal from "react-awesome-reveal";
 import { fadeInBottom } from "../styles/animations";
 
-const Temes = () => {
+const Themes = () => {
   return (
     <section className='container mx-auto px-4 mb-60 relative' style={{ minHeight: '200px'}}>
       <Reveal keyframes={fadeInBottom} triggerOnce={true}>
@@ -15,4 +15,4 @@ const Temes = () => {
   )
 }
 
-export default Temes;
+export default Themes;

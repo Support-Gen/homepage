@@ -7,6 +7,7 @@ import Hero from '../components/hero'
 import Integration from '../components/integration'
 import Search from '../components/search'
 import Themes from '../components/themes'
+import Footer from '../shared/footer'
 import Nav from '../shared/nav'
 
 const Home: NextPage = () => {
@@ -26,6 +27,7 @@ const Home: NextPage = () => {
       <AdminUI></AdminUI>
       <Faq></Faq>
       <CtaNotify></CtaNotify>
+      <Footer></Footer>
     </main>
   )
 }
