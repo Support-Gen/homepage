@@ -39,7 +39,7 @@ const navClasses = 'text-md font-medium hover:text-gray-400 transition duration-
 
 const Nav = () => {
   return (
-    <div className='fixed w-full bg-white' style={{ zIndex: 1 }}>
+    <div className='w-full bg-white' style={{ zIndex: 1 }}>
       <nav className="flex flex-row px-10 py-3">
         <h1 className="flex-1 font-bold text-lg">dojo<span className="text-blue-700">docs</span></h1>
         <div className="flex flex-row gap-4 items-center">

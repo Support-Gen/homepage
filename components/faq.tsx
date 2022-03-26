@@ -23,7 +23,7 @@ const Faq = () => {
             </>
           )}
         </Disclosure>
-        <Disclosure as="div" className="mt-2">
+        <Disclosure as="div" className="mt-2 w-full">
           {({ open }) => (
             <>
               <Disclosure.Button className="flex justify-between w-full px-4 py-2 text-sm font-medium text-left text-blue-900 bg-blue-100 rounded-lg hover:bg-blue-200 focus:outline-none focus-visible:ring focus-visible:ring-blue-500 focus-visible:ring-opacity-75">
