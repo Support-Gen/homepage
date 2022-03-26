@@ -15,7 +15,7 @@ const pricingTiers = [
   },
 ]
 
-const Price: NextPage = () => {
+const Pricing: NextPage = () => {
   return (
     <div>
       Pricing
@@ -23,4 +23,4 @@ const Price: NextPage = () => {
   )
 }
 
-export default Price;
+export default Pricing;
