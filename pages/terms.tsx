@@ -10,7 +10,7 @@ import Themes from '../components/themes'
 import Footer from '../shared/footer'
 import Nav from '../shared/nav'
 
-const Home: NextPage = () => {
+const Terms: NextPage = () => {
   return (
     <main className='overflow-x-hidden'>
       <Nav></Nav>
@@ -19,4 +19,4 @@ const Home: NextPage = () => {
   )
 }
 
-export default Home
+export default Terms
