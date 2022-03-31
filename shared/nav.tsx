@@ -19,9 +19,9 @@ const solutions = [
     description: 'Match your style',
     href: '##',
     icon: HiOutlineColorSwatch,
-    color: 'purple',
-    bgClass: 'bg-purple-200',
-    textClass: 'text-purple-600'
+    color: 'blue',
+    bgClass: 'bg-blue-200',
+    textClass: 'text-blue-600'
   },
   {
     name: 'Analytics',
@@ -34,7 +34,7 @@ const solutions = [
   },
 ]
 
-const focusClasses = 'focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-50 rounded-md';
+const focusClasses = 'focus:outline-none focus-visible:ring focus-visible:ring-blue-500 focus-visible:ring-opacity-50 rounded-md';
 const navClasses = 'text-md font-medium hover:text-gray-400 transition duration-150 ease-in-out p-1';
 
 const Nav = () => {

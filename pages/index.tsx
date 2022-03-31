@@ -18,7 +18,6 @@ const Home: NextPage = () => {
         <div className='flex flex-1'>
           <Hero></Hero>
         </div>
-        <img className="absolute" src="/hero-blob.svg" style={{zIndex: -1, minHeight: '100vh', width: '100%', objectFit: 'cover'}}></img>
       </div>
       <DocsOverview></DocsOverview>
       <Search></Search>
