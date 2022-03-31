@@ -13,7 +13,7 @@ import Nav from '../shared/nav'
 const Home: NextPage = () => {
   return (
     <main className='overflow-x-hidden'>
-      <div className='min-h-screen flex flex-col mb-60 relative overflow-hidden'>
+      <div className='min-h-screen flex flex-col mb-20 md:mb-80 relative'>
         <Nav></Nav>
         <div className='flex flex-1'>
           <Hero></Hero>
