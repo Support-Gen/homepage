@@ -26,7 +26,6 @@ const Search = () => {
           </div>
         </div>
       </Reveal>
-      <img className="absolute" style={{ top: -50, right: 675, width: '200px', zIndex: -1}}  src="/zoom-dynamic-color.svg"></img>
     </section>
   )
 }

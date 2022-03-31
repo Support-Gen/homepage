@@ -47,10 +47,7 @@ const DocsOverview = () => {
             </Tab.Group>
           </div>
         </Reveal>
-        <img className="absolute" style={{ top: 75, right: 150, width: '200px', zIndex: -1}}  src="/file-text-dynamic-color.svg"></img>
-        <img className="absolute" style={{ top: 125, left: 225, width: '125px', zIndex: -1}}  src="/copy-dynamic-color.svg"></img>
       </section>
-      <img className="absolute" src="/docs-blob.svg" style={{zIndex: -2, minHeight: '100%', width: '100%', objectFit: 'cover', top: 0}}></img>
     </div>
 
   );

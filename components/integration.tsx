@@ -9,7 +9,6 @@ const Integration = () => {
         <h2 className='font-normal text-lg text-slate-500'>Integrate our documentation services through by using html attributes. No library needed.</h2>
         <button>View documentation guide</button>
       </Reveal>
-      <img className="absolute" style={{ top: -50, right: 175, width: '175px', zIndex: -1}}  src="/puzzle-dynamic-color.svg"></img>
     </section>
   )
 }

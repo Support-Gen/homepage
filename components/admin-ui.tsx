@@ -46,7 +46,6 @@ const AdminUI = () => {
           </Tab.Group>
         </div>
       </Reveal>
-      <img className="absolute" style={{ top: 0, left: 175, width: '175px', zIndex: -1}}  src="/setting-dynamic-color.svg"></img>
     </section>
   );
 }
