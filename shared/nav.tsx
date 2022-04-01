@@ -4,6 +4,7 @@ import { MdInsights } from 'react-icons/md'
 import { CgDesignmodo } from 'react-icons/cg'
 import { HiOutlineColorSwatch } from 'react-icons/hi'
 import { FaRobot } from 'react-icons/fa'
+import Link from 'next/link'
 
 const solutions = [
   {
@@ -41,7 +42,9 @@ const Nav = () => {
   return (
     <div className='w-full bg-white' style={{ zIndex: 1 }}>
       <nav className="flex flex-row px-10 py-3">
-        <h1 className="flex-1 font-bold text-lg">dojo<span className="text-blue-700">docs</span></h1>
+        <Link href={'/'}>
+          <h1 className="flex-1 font-bold text-lg cursor-pointer">dojo<span className="text-blue-700">docs</span></h1>
+        </Link>
         <div className="flex flex-row gap-4 items-center">
           <Popover className="relative">
             {() => (
@@ -104,7 +107,7 @@ const Nav = () => {
           <a className={`${navClasses} ${focusClasses}`} href='##'>Docs</a>
         </div>
         <div className="flex flex-1 justify-end">
-          <button className="text-lg font-medium hover:bg-gray-100 rounded-md px-3 py-2">Sign in</button>
+          <button className="text-lg font-medium bg-violet-500 hover:bg-violet-400 text-white rounded-2xl px-3 py-2">Sign in</button>
         </div>
       </nav>
     </div>
