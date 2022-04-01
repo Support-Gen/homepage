@@ -1,5 +1,6 @@
+import { Switch } from "@headlessui/react";
 import { NextPage } from "next"
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import Faq from "../components/faq";
 import Footer from "../shared/footer";
 import Nav from "../shared/nav";
@@ -20,14 +21,36 @@ const pricingTiers = [
 ]
 
 const Pricing: NextPage = () => {
+  const [enabled, setEnabled] = useState(false)
   return (
     <main>
       <Nav></Nav>
-      <div className="container mx-auto">
-        <h1 className="text-6xl font-bold mb-10 text-center">Start now</h1>
-        <section className="flex flex-row justify-center mb-10">
-          <PlanCard name="Basic" price="10"></PlanCard>
-
+      <div className="container mx-auto pt-12">
+        <h1 className="text-7xl font-bold mb-8 text-center">Pricing</h1>
+        <div className="text-center mb-5">
+          <h3 className="font-bold mb-2">Billed anually</h3>
+          <Switch
+            checked={enabled}
+            onChange={setEnabled}
+            className={`${
+              enabled ? 'bg-blue-600' : 'bg-gray-200'
+            } relative inline-flex items-center h-10 rounded-full w-24`}
+          >
+            <span
+              className={`${
+                enabled ? 'translate-x-16' : 'translate-x-1'
+              } inline-block w-7 h-7 transform bg-white rounded-full`}
+            />
+          </Switch>
+        </div>
+        <section className="flex flex-row gap-2 justify-center mb-10">
+          <div className="pt-5">
+            <PlanCard name="Startup" price="19.99"></PlanCard>
+          </div>
+          <PlanCard name="Pro" price="49.99"></PlanCard>
+          <div className="pt-5">
+            <PlanCard name="Enterprise" price="149.99"></PlanCard>
+          </div>
         </section>
       </div>
       <Faq></Faq>
