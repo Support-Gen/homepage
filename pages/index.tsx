@@ -13,7 +13,7 @@ import Nav from '../shared/nav'
 const Home: NextPage = () => {
   return (
     <main className='overflow-x-hidden'>
-      <div className='min-h-screen flex flex-col mb-20 md:mb-80 relative'>
+      <div className='min-h-screen flex flex-col mb-20 md:mb-80 relative md:pb-5'>
         <Nav></Nav>
         <div className='flex flex-1'>
           <Hero></Hero>
@@ -22,7 +22,6 @@ const Home: NextPage = () => {
       <DocsOverview></DocsOverview>
       <Search></Search>
       <Themes></Themes>
-      <Integration></Integration>
       <AdminUI></AdminUI>
       <Faq></Faq>
       <CtaNotify></CtaNotify>

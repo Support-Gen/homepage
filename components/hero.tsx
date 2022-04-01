@@ -1,5 +1,5 @@
 import Reveal from "react-awesome-reveal";
-import { fadeInBottom } from "../styles/animations";
+import { fadeInBottom, fadeInTop } from "../styles/animations";
 
 const Hero = () => {
   return (
@@ -13,8 +13,10 @@ const Hero = () => {
           <input className="shadow appearance-none border rounded-l-lg w-1/2 py-2 px-3 text-gray-700 focus:outline-none focus:shadow-outline" id="email" type="text" placeholder="Type in email"></input>
           <button className='w-1/2 bg-blue-600 rounded-r-lg text-white font-semibold hover:bg-blue-500 shadow-lg shadow-blue-500/50'>Notify on launch 🚀</button>
         </div>
+      </Reveal>
+      <Reveal keyframes={fadeInTop} triggerOnce={true}>
         <div className="absolute top-10 w-full px-10">
-          <img className='md:w-3/5 shadow-lg rounded-3xl mx-auto' width={'100%'} height={'500px'} src="/feature-docs.png" alt="Image of feature documentation"/>
+          <img className='md:w-3/5 shadow-xl rounded-3xl mx-auto' width={'100%'} height={'500px'} src="/feature-docs.png" alt="Image of feature documentation"/>
         </div>
       </Reveal>
     </section>
