@@ -3,7 +3,7 @@ import { fadeInBottom, fadeInTop } from "../styles/animations";
 
 const Hero = () => {
   return (
-    <section className='mx-0 md:mx-10 bg-gradient-to-r from-sky-200 to-violet-200 md:rounded-2xl w-full relative'>
+    <section className='mx-0 md:mx-10 sm:mx-5 bg-gradient-to-r from-sky-200 to-violet-200 sm:rounded-2xl w-full relative'>
       <Reveal keyframes={fadeInBottom} triggerOnce={true}>
         <div className='mt-20 md:mt-40 text-center'>
           <h1 className='font-bold text-5xl md:text-7xl text-slate-800 mb-10'>Product docs <br></br>that <span className='font-extrabold underline decoration-wavy text-slate-900 decoration-blue-500'>save you time</span></h1>
@@ -11,7 +11,7 @@ const Hero = () => {
         </div>
         <div className='flex flex-row gap-2 mb-20 px-10 mx-auto lg:w-1/2 xl:w-1/3'>
           <input className="shadow appearance-none border rounded-l-2xl w-1/2 py-2 px-3 text-gray-700 focus:outline-none focus:shadow-outline" id="email" type="text" placeholder="Type in email"></input>
-          <button className='w-1/2 bg-blue-600 rounded-r-2xl text-white font-semibold hover:bg-blue-500 shadow-lg shadow-blue-500/50'>Notify on launch 🚀</button>
+          <button className='w-1/2 bg-gradient-to-r from-sky-500 to-violet-500 hover:from-sky-400 hover:to-violet-400 rounded-r-2xl text-white font-semibold shadow-lg shadow-blue-500/50'>Notify on launch 🚀</button>
         </div>
       </Reveal>
       <Reveal keyframes={fadeInTop} triggerOnce={true}>

@@ -41,7 +41,7 @@ const navClasses = 'text-md font-medium hover:text-gray-400 transition duration-
 const Nav = () => {
   return (
     <div className='w-full bg-white' style={{ zIndex: 1 }}>
-      <nav className="flex flex-row px-10 py-3">
+      <nav className="flex flex-row px-5 md:px-10 py-3">
         <Link href={'/'}>
           <h1 className="flex-1 font-bold text-lg cursor-pointer">dojo<span className="text-blue-700">docs</span></h1>
         </Link>
@@ -107,7 +107,7 @@ const Nav = () => {
           <a className={`${navClasses} ${focusClasses}`} href='##'>Docs</a>
         </div>
         <div className="flex flex-1 justify-end">
-          <button className="text-lg font-medium bg-violet-500 hover:bg-violet-400 text-white rounded-2xl px-3 py-2">Sign in</button>
+          <button className="text-lg font-medium bg-gradient-to-r from-sky-500 to-violet-500 hover:from-sky-400 hover:to-violet-400 text-white rounded-2xl px-3 py-2">Sign in</button>
         </div>
       </nav>
     </div>
