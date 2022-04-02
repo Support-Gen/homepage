@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import AdminUI from '../components/admin-ui'
 import CtaNotify from '../components/cta-notify'
+import DocsExtraFeatures from '../components/docs-extra-features'
 import DocsOverview from '../components/docs-overview'
 import Faq from '../components/faq'
 import Hero from '../components/hero'
@@ -12,7 +13,7 @@ import Nav from '../shared/nav'
 
 const Home: NextPage = () => {
   return (
-    <main className='overflow-x-hidden'>
+    <main>
       <div className='min-h-screen flex flex-col mb-20 md:mb-80 relative sm:pb-5'>
         <Nav></Nav>
         <div className='flex flex-1'>
@@ -20,6 +21,7 @@ const Home: NextPage = () => {
         </div>
       </div>
       <DocsOverview></DocsOverview>
+      <DocsExtraFeatures></DocsExtraFeatures>
       <Search></Search>
       <Themes></Themes>
       {/* <AdminUI></AdminUI> */}
