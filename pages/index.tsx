@@ -1,13 +1,13 @@
 import type { NextPage } from 'next'
 import AdminUI from '../components/admin-ui'
+import BrowserSupport from '../components/browser-support'
 import CtaNotify from '../components/cta-notify'
 import DocsExtraFeatures from '../components/docs-extra-features'
 import DocsOverview from '../components/docs-overview'
 import Faq from '../components/faq'
 import Hero from '../components/hero'
 import Integration from '../components/integration'
-import Search from '../components/search'
-import Themes from '../components/themes'
+import ThereIsMore from '../components/there-is-more'
 import Footer from '../shared/footer'
 import Nav from '../shared/nav'
 
@@ -21,9 +21,9 @@ const Home: NextPage = () => {
         </div>
       </div>
       <DocsOverview></DocsOverview>
+      <BrowserSupport></BrowserSupport>
       <DocsExtraFeatures></DocsExtraFeatures>
-      <Search></Search>
-      <Themes></Themes>
+      <ThereIsMore></ThereIsMore>
       {/* <AdminUI></AdminUI> */}
       <Faq></Faq>
       <CtaNotify></CtaNotify>

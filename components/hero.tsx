@@ -7,7 +7,7 @@ const Hero = () => {
       <Reveal keyframes={fadeInBottom} triggerOnce={true}>
         <div className='mt-20 md:mt-40 text-center'>
           <h1 className='font-bold text-5xl md:text-7xl text-slate-800 mb-10'>Product docs <br></br>that <span className='font-extrabold underline decoration-wavy text-slate-900 decoration-blue-500'>save you time</span></h1>
-          <h2 className='font-normal text-lg px-5 text-slate-500 mb-14 lg:w-1/2 xl:w-1/3 mx-auto'>We generate a documentation site out of your web-app, that makes your customer&apos;s and your life easier.</h2>
+          <h2 className='font-medium text-lg px-5 text-slate-500 mb-14 lg:w-1/2 xl:w-1/3 mx-auto'>We generate a documentation site out of your web-app, that makes your customer&apos;s and your life easier.</h2>
         </div>
         <div className='flex flex-row gap-2 mb-20 px-10 mx-auto lg:w-1/2 xl:w-1/3'>
           <input className="shadow appearance-none border rounded-l-2xl w-1/2 py-2 px-3 text-gray-700 focus:outline-none focus:shadow-outline" id="email" type="text" placeholder="Type in email"></input>
