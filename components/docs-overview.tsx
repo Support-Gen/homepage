@@ -8,7 +8,7 @@ const DocsOverview = () => {
     <div className="relative">
       <section className="container px-20 container mx-auto mb-40 relative">
         <Reveal keyframes={fadeInBottom} triggerOnce={true}>
-          <h1 className="font-extrabold text-slate-900 text-6xl text-center mb-4 w-1/2 mx-auto">Beautiful UI</h1>
+          <h1 className="font-extrabold text-slate-900 text-6xl text-center mb-4 w-1/2 mx-auto">Beautiful <span className="bg-clip-text text-transparent bg-gradient-to-r from-sky-500 to-purple-500">UI</span></h1>
           <h2 className='font-medium text-lg text-center text-slate-500 mb-14'>Get an overview of all your features and help your clients learn more about them.</h2>
           <div>
             <Tab.Group>

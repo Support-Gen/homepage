@@ -43,7 +43,7 @@ const Nav = () => {
     <div className='w-full bg-white' style={{ zIndex: 1 }}>
       <nav className="flex flex-row px-5 md:px-10 py-3 items-center">
         <Link href={'/'}>
-          <h1 className="flex-1 font-bold text-lg cursor-pointer">dojo<span className="text-blue-700">docs</span></h1>
+          <h1 className="flex-1 font-bold text-lg cursor-pointer">yes<span className="text-blue-700">docs</span></h1>
         </Link>
         <div className="flex flex-row gap-4 items-center">
           <Popover className="relative">

@@ -5,6 +5,7 @@ import CtaNotify from '../components/cta-notify'
 import DocsExtraFeatures from '../components/docs-extra-features'
 import DocsOverview from '../components/docs-overview'
 import Faq from '../components/faq'
+import OneClickGeneration from '../components/few-clicks-away'
 import Hero from '../components/hero'
 import Integration from '../components/integration'
 import ThereIsMore from '../components/there-is-more'
@@ -24,6 +25,7 @@ const Home: NextPage = () => {
       <BrowserSupport></BrowserSupport>
       <DocsExtraFeatures></DocsExtraFeatures>
       <ThereIsMore></ThereIsMore>
+      <OneClickGeneration></OneClickGeneration>
       {/* <AdminUI></AdminUI> */}
       <Faq></Faq>
       <CtaNotify></CtaNotify>

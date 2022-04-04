@@ -25,7 +25,7 @@ const Pricing: NextPage = () => {
   return (
     <main>
       <Nav></Nav>
-      <div className="container mx-auto pt-12">
+      <div className="container mx-auto pt-12 mb-40">
         <h1 className="text-7xl font-bold mb-8 text-center">Pricing</h1>
         <div className="text-center mb-5">
           <h3 className="font-bold mb-2">Billed anually</h3>
@@ -62,7 +62,7 @@ const Pricing: NextPage = () => {
 const PlanCard = ({ name, price  }: { name: string, price: string}) => {
   return (
     <div className="p-4 max-w-sm bg-white rounded-lg border shadow-md sm:p-8">
-        <h5 className="mb-4 text-xl font-medium text-gray-500">{name}</h5>
+        <h5 className="mb-4 text-xl font-bold text-gray-500">{name}</h5>
         <div className="flex items-baseline text-gray-900">
             <span className="text-3xl font-semibold">$</span>
             <span className="text-5xl font-extrabold tracking-tight">{price}</span>
