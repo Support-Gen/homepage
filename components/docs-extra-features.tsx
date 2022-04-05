@@ -8,7 +8,7 @@ const DocsExtraFeatures = () => {
         <div className="pt-10 md:sticky md:w-1/3" style={{ height: '300px', top: '0px'}}>
           <h1 className="font-extrabold text-7xl text-slate-900">What makes us <span className="bg-clip-text text-transparent bg-gradient-to-r from-sky-500 to-purple-500">shine...</span></h1>
         </div>
-        <div className="pt-10 md:w-2/3" style={{ height: '1300px'}}>
+        <div className="pt-10 md:w-2/3" style={{ minHeight: '1300px'}}>
           <Reveal keyframes={fadeInBottom} triggerOnce={true}>
             <div className="shadow-lg rounded-3xl p-10 mb-20">
               <h1 className='font-extrabold text-5xl mb-4 text-slate-900'>Smart search</h1>

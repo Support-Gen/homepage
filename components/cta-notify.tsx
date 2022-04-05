@@ -1,8 +1,8 @@
 const CtaNotify = () => {
   return (
-    <div className="md:container mx-auto mb-20 md:px-4">
+    <div className="max-w-6xl mx-auto mb-20 md:px-4">
       <div className="bg-gradient-to-r from-sky-500 to-violet-500 to-purple-500 md:rounded-3xl flex justify-center pt-20 px-4" style={{ height: '375px'}}>
-        <div>
+        <div className="">
           <h2 className="text-white font-extrabold text-5xl mb-2">Interested in tbddocs?</h2>
           <p className="text-gray-200 text-xl mb-10">We are still in development. </p>
           <div className='flex flex-row gap-2'>
