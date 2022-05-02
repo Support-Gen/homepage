@@ -40,10 +40,10 @@ const navClasses = 'text-md font-medium hover:text-gray-400 transition duration-
 
 const Nav = () => {
   return (
-    <div className='container max-w-8xl mx-auto' style={{ zIndex: 1 }}>
+    <div style={{ zIndex: 1 }}>
       <nav className="flex flex-row px-5 md:px-10 py-3 items-center">
         <Link href={'/'}>
-          <h1 className="flex-1 font-bold text-xl cursor-pointer">flowy</h1>
+          <h1 className="flex-1 font-bold text-xl cursor-pointer">flowy<i className='font-medium text-violet-600'>docs</i></h1>
         </Link>
         <div className="flex flex-row gap-4 items-center">
           <Popover className="relative">
