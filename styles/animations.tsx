@@ -3,7 +3,7 @@ import { keyframes } from "@emotion/react";
 export const fadeInBottom = keyframes`
   from {
     opacity: 0;
-    transform: translate3d(0, -100px, 0);
+    transform: translate3d(0, -50px, 0);
   }
 
   to {
@@ -15,7 +15,7 @@ export const fadeInBottom = keyframes`
 export const fadeInTop = keyframes`
   from {
     opacity: 0;
-    transform: translate3d(0, 100px, 0);
+    transform: translate3d(0, 50px, 0);
   }
 
   to {
@@ -27,7 +27,7 @@ export const fadeInTop = keyframes`
 export const fadeInLeft = keyframes`
   from {
     opacity: 0;
-    transform: translate3d(100px, 0, 0);
+    transform: translate3d(50px, 0, 0);
   }
 
   to {

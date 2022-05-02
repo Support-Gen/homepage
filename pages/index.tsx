@@ -5,7 +5,6 @@ import CtaNotify from '../components/cta-notify'
 import DocsExtraFeatures from '../components/docs-extra-features'
 import DocsOverview from '../components/docs-overview'
 import Faq from '../components/faq'
-import OneClickGeneration from '../components/few-clicks-away'
 import Hero from '../components/hero'
 import Integration from '../components/integration'
 import ThereIsMore from '../components/there-is-more'
@@ -17,15 +16,14 @@ const Home: NextPage = () => {
     <main>
       <div className='min-h-screen flex flex-col mb-20 md:mb-80 relative sm:pb-5'>
         <Nav></Nav>
-        <div className='flex flex-1'>
+        <div className='flex flex-1 container mx-auto max-w-8xl'>
           <Hero></Hero>
         </div>
       </div>
-      <DocsOverview></DocsOverview>
       <BrowserSupport></BrowserSupport>
+      <DocsOverview></DocsOverview>
       <DocsExtraFeatures></DocsExtraFeatures>
       <ThereIsMore></ThereIsMore>
-      <OneClickGeneration></OneClickGeneration>
       {/* <AdminUI></AdminUI> */}
       <Faq></Faq>
       <CtaNotify></CtaNotify>

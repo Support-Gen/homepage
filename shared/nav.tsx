@@ -40,10 +40,10 @@ const navClasses = 'text-md font-medium hover:text-gray-400 transition duration-
 
 const Nav = () => {
   return (
-    <div className='w-full bg-white' style={{ zIndex: 1 }}>
+    <div className='container max-w-8xl mx-auto' style={{ zIndex: 1 }}>
       <nav className="flex flex-row px-5 md:px-10 py-3 items-center">
         <Link href={'/'}>
-          <h1 className="flex-1 font-bold text-lg cursor-pointer">yes<span className="text-blue-700">docs</span></h1>
+          <h1 className="flex-1 font-bold text-xl cursor-pointer">flowy</h1>
         </Link>
         <div className="flex flex-row gap-4 items-center">
           <Popover className="relative">
@@ -106,8 +106,9 @@ const Nav = () => {
           <a className={`${navClasses} ${focusClasses}`} href='pricing'>Pricing</a>
           <a className={`${navClasses} ${focusClasses}`} href='##'>Docs</a>
         </div>
-        <div className="flex flex-1 justify-end">
-          <button className="text-lg font-medium bg-gradient-to-r from-sky-500 to-violet-500 hover:from-sky-400 hover:to-violet-400 text-white rounded-2xl px-3 py-2">Sign in</button>
+        <div className="flex flex-1 justify-end gap-5">
+          <button className="text-md font-medium hover:text-gray-400">Sign in</button>
+          <button className="text-md font-medium bg-blue-600 hover:bg-blue-500 text-white rounded-2xl px-4 py-2">Sign up</button>
         </div>
       </nav>
     </div>
