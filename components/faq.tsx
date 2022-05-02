@@ -36,7 +36,7 @@ const Faq = () => {
               <Disclosure>
                 {({ open }) => (
                   <>
-                    <Disclosure.Button className="flex justify-between w-full px-10 py-5 text-xl font-bold text-left text-white bg-slate-800 hover:bg-slate-700 rounded-xl focus:outline-none focus-visible:ring focus-visible:ring-blue-500 focus-visible:ring-opacity-75">
+                    <Disclosure.Button className="flex justify-between w-full px-10 py-5 text-xl font-medium text-left text-white bg-slate-700 hover:bg-slate-600 rounded-xl focus:outline-none focus-visible:ring focus-visible:ring-blue-500 focus-visible:ring-opacity-75">
                       <span>{faq.question}</span>
                       <FiChevronUp
                         className={`${

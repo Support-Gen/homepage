@@ -8,12 +8,12 @@ const DocsOverview = () => {
     <div className="relative">
       <section className="container px-20 container mx-auto mb-40 relative">
         <Reveal keyframes={fadeInBottom} triggerOnce={true}>
-          <h1 className="font-extrabold text-slate-900 text-6xl text-center mb-4 w-1/2 mx-auto">Beautiful <span className="bg-clip-text text-transparent bg-gradient-to-r from-sky-500 to-purple-500">UI</span></h1>
+          <h1 className="font-extrabold text-slate-900 text-6xl text-center mb-4 mx-auto">Where customers<br></br><span className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-600 to-orange-700">find support.</span></h1>
           <h2 className='font-medium text-lg text-center text-slate-500 mb-14'>Get an overview of all your features and help your clients learn more about them.</h2>
-          <div>
+          <div className='flex flex-row gap-20'>
             <Tab.Group>
               <div className="flex flex-row justify-center mb-10">
-                <Tab.List className="max-w-2xl border-b-2 border-gray-200 px-10 gap-10 flex flex-row">
+                <Tab.List className="max-w-2xl px-10 gap-10 flex flex-col items-start">
                   <Tab key="guides" className={({ selected }) => "font-semibold text-xl uppercase px-2 pb-2 " + (selected ? " text-blue-600" : "text-gray-400") }>
                     Guides
                   </Tab>
@@ -26,9 +26,6 @@ const DocsOverview = () => {
                 </Tab.List>
               </div>
               <div className="flex flex-row gap-10 items-center">
-                <a className="flex justify-center items-center bg-gray-200 hover:bg-gray-300 rounded-full cursor-pointer" style={{ height: '50px', minWidth: '50px' }}>
-                  <FiChevronLeft></FiChevronLeft>
-                </a>
                 <Tab.Panels className="block mt-2 w-full">
                   <Tab.Panel key="guides">
                     <img className="rounded-xl shadow-lg w-full" src="/docs-home.png"></img>
@@ -40,9 +37,6 @@ const DocsOverview = () => {
                     <img className="rounded-xl shadow-lg w-full" src="/feature-docs.png"></img>
                   </Tab.Panel>
                 </Tab.Panels>
-                <a className="flex justify-center items-center bg-gray-200 hover:bg-gray-300 rounded-full cursor-pointer" style={{ height: '50px', minWidth: '50px' }}>
-                  <FiChevronRight></FiChevronRight>
-                </a>
               </div>
             </Tab.Group>
           </div>
