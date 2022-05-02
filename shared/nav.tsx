@@ -108,7 +108,7 @@ const Nav = () => {
         </div>
         <div className="flex flex-1 justify-end gap-5">
           <button className="text-md font-medium hover:text-gray-400">Sign in</button>
-          <button className="text-md font-medium bg-blue-600 hover:bg-blue-500 text-white rounded-2xl px-4 py-2">Sign up</button>
+          <button className="text-md font-medium bg-violet-600 hover:bg-violet-500 text-white rounded-xl px-4 py-2">Sign up</button>
         </div>
       </nav>
     </div>

@@ -20,8 +20,8 @@ const Home: NextPage = () => {
           <Hero></Hero>
         </div>
       </div>
-      <BrowserSupport></BrowserSupport>
       <DocsOverview></DocsOverview>
+      <BrowserSupport></BrowserSupport>
       <DocsExtraFeatures></DocsExtraFeatures>
       <ThereIsMore></ThereIsMore>
       {/* <AdminUI></AdminUI> */}
