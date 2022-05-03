@@ -5,8 +5,6 @@ import DocsOverview from '../components/docs-overview'
 import Faq from '../components/faq'
 import Hero from '../components/hero'
 import Integration from '../components/integration'
-import Search from '../components/search'
-import Themes from '../components/themes'
 import Footer from '../shared/footer'
 import Nav from '../shared/nav'
 
