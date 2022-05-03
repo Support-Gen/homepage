@@ -5,28 +5,30 @@ import { fadeInBottom } from "../styles/animations";
 const faqs = [
   {
     question: "When will you launch?",
-    answer:
-      "You can expect the launch to be around July 2022. The MVP is still in development.",
+    answer: "We expect our MVP to be done around July 2022.",
   },
   {
     question: "Will there be a free trial?",
-    answer: "No, but there is a 21 days 100% money back guarantee.",
+    answer: "No, but there will be a 21 days 100% money back guarantee.",
   },
   {
-    question: "How long does it take to generate the documentation?",
+    question: "How does the generation process work?",
+    answer: "We scrape your web-app based on the attributes you've set.",
+  },
+  {
+    question: "How long does it take to generate a documentation?",
     answer: "The generation process takes on average about 3 minutes.",
   },
   {
-    question: "Can I customize texts after the generation process complete?",
-    answer:
-      "Not yet. After the launch we'll focus on adding more customization options, such as apps and text adjustments.",
+    question: "Can I customize content after the generation is complete?",
+    answer: "Not yet. After the launch we'll focus on adding more customization options, such as apps and text adjustments.",
   },
 ];
 
 const Faq = () => {
   return (
-    <section className="container max-w-4xl px-4 mx-auto mb-60">
-      <h1 className="font-extrabold text-slate-900 text-6xl text-center mb-10 mx-auto">
+    <section className="container max-w-4xl px-4 mx-auto mb-40">
+      <h1 className="font-extrabold text-slate-900 text-6xl text-center mb-20 mx-auto">
         Frequently asked questions
       </h1>
       <div className="w-full p-2 mx-auto bg-white rounded-md">

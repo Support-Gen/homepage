@@ -24,7 +24,7 @@ const Footer = () => {
       </div>
       <hr className="mb-10"></hr>
       <div className="flex flex-row justify-between">
-        <p className="font-medium text-slate-500 font-md">Copyright &copy; tbddocs 2022</p>
+        <p className="font-medium text-slate-500 font-md">Copyright &copy; flowydocs 2022</p>
         <a><p className="font-medium text-slate-500 font-md">Cookies</p></a>
       </div>
     </footer>
